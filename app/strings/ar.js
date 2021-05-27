@@ -1,0 +1,283 @@
+export default {
+    // splash
+    welcome_splash: "اهلاً بك",
+
+    //intro
+    signin_selah: "قم بتسجيل الدخول في تطبيق صلة",
+    signin: "تسجيل الدخول ",
+    new_user: "مستخدم جديد؟ إنشاء حساب",
+    signup: "تسجيل جديد",
+    language: "English",
+
+    // signin & signup
+    new_registration: "تسجيل جديد",
+    owner: "مالك",
+    renter: "مستأجر",
+    full_name: "الاسم الكامل",
+    your_id_iqama: "رقم الهوية/ الإقامة",
+    phone_number: "رقم الجوال",
+    password: "كلمة المرور",
+    register: "تسجيل",
+    no_account: "ليس لديك حساب؟ تسجيل جديد.",
+    remember_me: "تذكرني",
+    forgot_password: "نسيت كلمة المرور؟",
+    follow_us: "تابعنا",
+    name_length_error: "الاسم يجب ان يكون على الاقل ٣ احرف",
+    id_iqama_length_error: "الرجاء ادخال رقم الهوية/الاقامة",
+    phone_number_error: "الرجاء ادخال رقم الجوال",
+    password_error: "كلمة المرور يجب ان تكون ٦ خانات على الاقل",
+    update_password_success: "لقد تم تحديث كلمة المرور بنجاح",
+    id_passowrd_incorrect: "هناك خطأ في الهوية او كلمة المرور",
+
+    // verify phone screen
+    verify_phone: "تأكيد الجوال",
+
+    // forgot password
+    send: "ارسال",
+    have_account: "لديك حساب؟ سجل الدخول الان",
+    resend: "اعادة الارسال",
+    pin_code: "رمز التحقق",
+    pin_code_error: "الرجاء ادخال رمز التحقق المرسل الى رقمك",
+    confirm_password_error: "كلمة المرور غير مطابقة",
+    confirm_password: "تأكيد كلمة المرور",
+    otp_phone_number_error: "عفواً رقم الجوال المدخل غير موجود",
+    otp_confirm_error: "عفواً رمز التحقق غير صحيح",
+
+    // menu
+    menu_mainpage: "الرئيسية",
+    menu_userprofile: "الملف الشخصي",
+    menu_messages: "الرسائل",
+    menu_myproperty: "املاكي",
+    menu_addnew: "إضافة عقار جديد",
+    menu_propertymanager: "مدير أملاكي",
+    menu_transactions: "المعاملات المالية",
+    menu_settings: "الضبط",
+    menu_aboutus: "عنا",
+    menu_logout: "خروج",
+
+    // main page
+    my_property: "املاكي",
+    add_new_property: "إضافة عقار جديد",
+    property_onsale: "عروض البيع",
+    property_manager: "مدير أملاكي",
+    unit_info: "تفاصيل العقار المستأجر",
+    electricity_bill: "فواتير الكهرباء والخدمات",
+    other_service: "خدمات أخرى",
+    customer_support: "الدعم الفني",
+    news: "اخبارنا",
+    account_statement: "كشف حساب",
+
+    // place detail
+    welcome_place: "اهلاً بك",
+    price: "السعر",
+    room_count: "عدد الغرف",
+    description: "الوصف",
+    contact_custimer_support: "تواصل مع مدير املاكي",
+    annual_rent: "الايجار السنوي",
+    property_rent: "تأجير",
+    property_rented: "تم التأجير",
+    property_sale: "بيع",
+    property_sold: "تم البيع",
+    show_renter_detail: "عرض بيانات المستأجر",
+    select_map: "Select Map",
+    google_map: "Google Map",
+    ios_map: "IOS Map",
+    property_for_sale: "عروض البيع",
+
+    // chat
+    you: 'انت"',
+    customer_support: "الدعم الفني",
+    type_message: "اكتب رسالتك..",
+    no_custmer_support: "لا يوجد موظف خدمة عملاء",
+    chat_block: "عفواً لقد تم حجب الرسائل في حسابك",
+    admin: "مدير",
+
+    // map
+    location_map: "الموقع على الخريطة",
+
+    // add new property
+    property_type: "نوع العقار",
+    property_type_flat: "شقة",
+    property_type_vila: "فيلا",
+    property_type_land: "ارض",
+    property_type_building: "عمارة تجارية",
+    property_type_compound: "برج",
+    property_type_commercial_store: "محل تجاري",
+    property_type_office: "مكتب",
+    property_type_ranch: "مزرعة",
+    property_type_all: "الكل",
+    upload_photo: "ارفاق صور للعقار",
+    select_image: "اختيار الصور",
+    take_photo: "التقاط صورة",
+    open_library: "فتح الاستوديو",
+    property_name: "اسم العقار",
+    address: "العنوان",
+    room: "الغرف",
+    area: "المساحة",
+    land_area: "مساحة الارض",
+    bathrooms_count: "عدد دورات المياة",
+    front: "الواجهة",
+    front_north: "شمالية",
+    front_south: "جنوبية",
+    front_east: "شرقية",
+    front_west: "غربية",
+    street_width: "عرض الشارع",
+    overlooking_street_count: "عدد الشوارع المطلة عليها",
+    overlooking_street_count1: "شارع ",
+    overlooking_street_count2: "شارعينt",
+    overlooking_street_count3: "٣ شوارع",
+    overlooking_street_count4: "٤ شوارع",
+    lengths: "طولها على الشارع",
+    depth: "العمق",
+    land_permit: "تصريح الارض",
+    land_permit_residential: "سكني",
+    land_permit_commercial: "تجاري",
+    floor_count: "الادوار",
+    showrooms_count: "عدد المعارض",
+    office_count: "عدد المكاتب",
+    apartment_count: "عدد الشقق",
+    building_age: "عمر المبنى",
+    yearly_income: "الدخل السنوي",
+    air_conditioning: "تكييف هواء",
+    furnished: "مفروشة",
+    gas: "غاز",
+    seperate_electricity: "كهرباء منفصلة",
+    water: "مياة",
+    extension: "ملحقn",
+    garden: "حديقة",
+    maid_room: "غرفة خادمة",
+    swimming_pool: "مسبح",
+
+    electricity_subs_num: "رقم اشتراك الكهرباء",
+    water_subs_num: "رقم اشتراك المياة",
+    living_room: "صالة",
+    living_room_garage: "جراج",
+    living_room_bathroom: "حمام",
+    living_room_kitchen: "المطبخ",
+    living_room_building_keeper: "حارس",
+    living_room_balcony: "بلكونة",
+    living_room_lift: "مصعد",
+    unit_age: "العمر",
+    year: "سنة",
+    add: "اضافة",
+    property_name_error: "الرجاء تعبئة حقل اسم العقار",
+    property_address_error: "الرجاء اختيار موقع العقار من الخريطة",
+    property_price_error: "الرجاء ادخال سعر العقار",
+    property_room_error: "الرجاء ادخال عدد الغرف",
+    property_area_error: "الرجاء ادخال المساحة",
+    property_electricity_number_error: "الرجاء ادخال رقم اشتراك الكهرباء",
+    property_water_number_error: "الرجاء ادخال رقم اشتراك المياة",
+    property_living_room_error: "الرجاء ادخال عدد غرف المعيشة",
+    property_unit_age_error: "الرجاء ادخال عمر العقار",
+    rent: "تأجير",
+    sale: "بيع",
+    delete: "حذف",
+    delete_property_message: "هل انت متأكد من خيار الحذف؟",
+    create_property_success: "رائع! لقد تم اضافة عقارك بنجاح",
+    edit_property_success: "لقد تم تحديث العقار بنجاح",
+    edit_property: "تحرير الخاصية",
+    add_property_success: "لقد تم اضافة العقار بنجاح وجاري الان المراجعة.",
+
+    //search
+    search: "اعدادات البحث",
+    land_area: "المساحة",
+    from: "من",
+    to: "الى",
+
+    //search result
+    search_result: "نتائج البحث",
+
+    // user profile
+    user_profile: "المستخدم",
+    user_name: "اسم العميل",
+    id_iqama: "رقم الهوية",
+    edit: "تعديل",
+    edit_profile_error: "عفواً لقد حدث خطأ، الرجاء المحاولة مرة اخرى",
+    edit_profile_success: "لقد تم تحديث الملف الشخصي بنجاح",
+
+    // settings
+    old_password: "كلمة المرور القديمة",
+    new_password: "كلمة المرور الجديدة",
+    help: "المساعدة",
+    privacy_policy: "سياسة الخصوصية",
+    contact_us: "اتصل بنا",
+    save_changes: "ارسل",
+    contact_us_message: "الرسائل",
+    reset_password_error: "كلمة المرور القديمة غير صحيحة",
+
+    // contact us
+    contactus_message_error: "اكتب رسالتك هنا",
+    contactus_message_success: "شكراً لك، لقد تم الارسال بنجاح",
+
+    // portfolio
+    real_estate_portfolio: "الحساب العقاري",
+
+    //other service
+    unit_number: "رقم الوحدة",
+    hygiene_package: "خدمة النظافة",
+    package: "باقة",
+    num_order: "رقم",
+    one_month: "شهر واحد",
+    sr: "ريال",
+    visits: "زيارات",
+    choice: "اختيار",
+    subscription_success: "شكراً لك لقد تم اشتراكك في الخدمة بنجاح، سيتم التواصل معك في اقرب وقت ممكن",
+
+    // electricity bill
+    bills: "الفواتير",
+    paid_up: "تم الدفع؟",
+    quantity: "الكمية",
+    month: "الشهر",
+
+    //unit detail screen
+    view_housing_unit_data: "عرض بيانات الوحدة المؤجرة",
+
+    //unit data screen
+    date_of_rent: "تاريخ بداية الايجار",
+    due_date: "تاريخ الاستحقاق",
+    installment: "قسط الايجار",
+    view_bills: "عرض الفواتير",
+    lease: "عقد الايجار",
+    contract: "عقد الإيجار",
+    real_estate_instrument: "الصك العقاري",
+    contract_pdf_error: "عقد الايجار غير موجود",
+    instrument_pdf_error: "صك الايجار غير موجود",
+    contact_renters_support: "تواصل مع الدعم الفني",
+    housing_unit_data: "بيانات الوحدة المؤجرة",
+
+    // payment screen
+    payment: "الدفع",
+    input_card_error: "الرجاء ادخال بيانات البطاقة",
+    card_number_error: "الرجاء ادخال رقم بطاقة صحيح",
+    card_expiry_error: "الرجاء ادخال تاريخ انتهاء صحيح",
+    card_cvc_error: "الرجاء ادخال رقم cvv",
+    your_saved_card: "البطاقات المحفوظة",
+    add_new_card: "اضافة بطاقة جديدة",
+    title_card_number: "رقم البطاقة",
+    title_expiry: "تاريخ الانتهاء",
+    title_cvc: "رمز CVC",
+
+    // transaction screen
+    title_transaction: "المعاملات المالية",
+    title_amount: "المبلغ",
+    title_date: "التاريخ",
+
+    // renter detail
+    renter_detail: "تفاصيل المستأجر",
+    renter_name: "اسم المستأجر",
+    no_unit_data: "عفواً، لا يوجد بيانات لعرضها",
+
+    // display pdf screen
+    download: "تحميل",
+    share: "يشارك",
+
+    // common
+    warnning: "تنبيه",
+    notice: "تنويه",
+    success: "نجاح",
+    ok: "حسناً",
+    cancel: "الغاء",
+    continue: "متابعة",
+    api_error: "عفواً، حدث خطأ ، الرجاء المحاولة مرة اخرى",
+    network_error: "عفواً هناك خطاً في الاتصال الرجاء المحاولة مرة اخرى"
+};
